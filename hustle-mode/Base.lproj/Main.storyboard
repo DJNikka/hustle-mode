@@ -53,7 +53,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ON" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhJ-aL-b9U">
                                         <rect key="frame" x="112" y="490" width="151" height="72"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="46"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="48"/>
                                         <color key="textColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="0.94563356160000001" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -64,6 +64,14 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="cloudHolder" destination="bx9-e6-5sd" id="3u6-te-mGt"/>
+                        <outlet property="darkBlueBG" destination="1LW-Tq-NFN" id="c5E-qS-FuN"/>
+                        <outlet property="hustleLbl" destination="YvF-PQ-iUL" id="May-eY-meZ"/>
+                        <outlet property="onLbl" destination="uhJ-aL-b9U" id="3B5-wT-PIF"/>
+                        <outlet property="powerBtn" destination="Isl-iz-aPo" id="pnK-yp-fpi"/>
+                        <outlet property="rocket" destination="RR2-cn-02l" id="ImG-dv-mst"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
