@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import AVFoundation
+
 
 class ViewController: UIViewController {
 
@@ -17,6 +19,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var hustleLbl: UILabel!
     @IBOutlet weak var onLbl: UILabel!
     
+    var player: AVAudioPlayer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
